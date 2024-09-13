@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.header,
+.hero,
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.header {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  padding: 1rem 10rem;
+}
+.header a {
+  text-decoration: none;
+}
+.header a:visited {
+  color: white;
+}
+.header li:nth-child(1) {
+  flex-grow: 1;
+  font-size: 24px;
+  font-weight: 700;
+}
+.footer {
+  text-align: center;
+  padding: 1.25rem;
+}
+.hero {
+  display: flex;
+  padding: 5rem 10rem;
+  gap: 2rem;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 39rem;
+}
+.hero-left p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.hero-left button {
+  width: 7.5rem;
+}
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  text-align: center;
+  width: 39rem;
+}
+.info {
+  padding: 5rem 10rem;
+}
+.info h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  gap: 2.5rem;
+}
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 20%;
+}
+.card img {
+  width: 10rem;
+  height: 10rem;
+  border: solid 3px #3882f6;
+  border-radius: 1rem;
+  align-self: center;
+}
+.card p {
+  align-self: center;
+  width: 10rem;
+  text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 10rem;
+  gap: 2.5rem;
+}
+.article {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote h3 {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1f2937;
+  padding-right: 2.5rem;
+}
+.cta {
+  background-color: #3882f6;
+  display: flex;
+  margin: 5rem 10rem;
+  padding: 5rem;
+  color: #f9faf8;
+  border-radius: 0.5rem;
+}
+.cta-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cta-left h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.cta-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-right button {
+  border: solid #f9faf8;
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  width: 7.5rem;
+}
