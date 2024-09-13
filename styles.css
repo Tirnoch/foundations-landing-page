@@ -113,13 +113,14 @@ button {
   font-weight: lighter;
   font-style: italic;
   color: #1f2937;
+  padding: 0 5rem;
 }
 .quote h3 {
   align-self: flex-end;
   font-size: 24px;
   font-weight: 700;
   color: #1f2937;
-  padding-right: 2.5rem;
+  padding-right: 5rem;
 }
 .cta {
   background-color: #3882f6;
